@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "A Vue3 + Vite2 + Element-Plus2 project",
-  "author": "sheng <18475140601@163.com>",
+  "author": "sheng <zeguwx@163.com>",
   "scripts": {
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx,.vue",
     "lint:fix": "eslint src --fix --ext .js,.jsx,.ts,.tsx,.vue",
