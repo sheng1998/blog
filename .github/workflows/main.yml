@@ -53,7 +53,7 @@ jobs:
           github_token: ${{ secrets.TOKEN }}
           # Set a target branch for deployment. default is gh-pages
           # 脚本执行后将文件存放的分支，不要在该分支存放其他代码
-          publish_branch: gh-pages,
+          publish_branch: gh-pages
           # 配置需要复制到新分支的目录（npm run build出来的目录）
           publish_dir: dist
           user_name: sheng1998
