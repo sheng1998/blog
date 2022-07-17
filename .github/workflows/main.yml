@@ -37,6 +37,7 @@ jobs:
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
+          github_token: ${{ TOKEN }}
           user_name: sheng1998
           user_email: 18475140601@163.com
           commit_message: update
