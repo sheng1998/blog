@@ -40,3 +40,19 @@ jobs:
       # 构建项目
       - name: build app
         run: npm run dev
+
+      # 执行自动打包和配置github page
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          # 配置github_token，需要到个人中心创建
+          # secrets.TOKEN 为项目自定义的私密变量
+          github_token: ${{ secrets.TOKEN }}
+          # Set a target branch for deployment. default is gh-pages
+          # 脚本执行后将文件存放的分支，不要在该分支存放其他代码
+          publish_branch: gh-pages
+          # 配置需要复制到新分支的目录（npm run build出来的目录）
+          publish_dir: dist
+          user_name: sheng1998
+          user_email: 18475140601@163.com
+          commit_message: update
