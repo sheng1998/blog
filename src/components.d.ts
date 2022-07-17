@@ -5,7 +5,12 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    ElMenuItemGroup: typeof import('element-plus/es')['ElMenuItemGroup']
     ElPopover: typeof import('element-plus/es')['ElPopover']
+    ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
   }
 }
 

@@ -57,4 +57,5 @@ export default defineConfig({
       '$style': path.resolve(__dirname, './src/assets/css'),
     },
   },
+  base: './',
 });
