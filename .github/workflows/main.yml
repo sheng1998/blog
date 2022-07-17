@@ -43,6 +43,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
           github_token: ${{ secrets.TOKEN }}
+          publish_dir: dist
           destination_dir: dist
           user_name: sheng1998
           user_email: 18475140601@163.com
