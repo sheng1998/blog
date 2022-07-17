@@ -39,7 +39,7 @@ jobs:
 
       # 构建项目
       - name: build app
-        run: npm run dev
+        run: npm run build
 
       # 执行自动打包和配置github page
       - name: GitHub Pages action
