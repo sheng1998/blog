@@ -15,10 +15,10 @@
       </template>
       <el-menu-item-group>
         <template #title>
-          <span>Group One</span>
+          <span>2222222</span>
         </template>
         <el-menu-item index="1-1">
-          item one
+          333333333
         </el-menu-item>
         <el-menu-item index="1-2">
           item two
