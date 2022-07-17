@@ -11,7 +11,7 @@
         <el-icon>
           <location />
         </el-icon>
-        <span>Navigator One</span>
+        <span>111111111111111111111111111</span>
       </template>
       <el-menu-item-group>
         <template #title>
