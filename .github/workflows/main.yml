@@ -34,11 +34,10 @@ jobs:
       - name: build app
         run: npm run build
       
-      - name: ggg
-        uses: crazy-max/ghaction-github-pages@v3.0.0
+      - name: Github Pages Deploy Action
+        uses: avinal/github-pages-deploy-action@v0.9
         with: 
-          repo: ${{ secrets.TOKEN }}
-          build_dir: dist
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
         
       #- name: GitHub Pages action
         #uses: peaceiris/actions-gh-pages@v3.7.3
