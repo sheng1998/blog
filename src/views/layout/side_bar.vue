@@ -59,7 +59,7 @@
         <setting />
       </el-icon>
       <template #title>
-        Navigator Four
+        测试测试
       </template>
     </el-menu-item>
   </el-menu>
