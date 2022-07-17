@@ -44,7 +44,7 @@ jobs:
         with:
           github_token: ${{ secrets.TOKEN }}
           publish_dir: dist
-          destination_dir: dist
+          # destination_dir: dist
           user_name: sheng1998
           user_email: 18475140601@163.com
           commit_message: update
