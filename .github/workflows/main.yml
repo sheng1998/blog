@@ -28,7 +28,6 @@ jobs:
 
       # 安装 node 脚本
       - name: install nodejs
-        if: always()
         uses: actions/setup-node@v3.4.1
         with:
           # 安装的 node 版本
@@ -36,12 +35,10 @@ jobs:
 
       # 安装项目依赖
       - name: install deps
-        if: always()
         run: npm install
 
       # 构建项目
       - name: build app
-        if: always()
         run: npm run build
 
       # 执行自动打包和配置github page
